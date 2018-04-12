@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ucs.ur.buget.Menu"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Buget App!"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-light"
+        android:onClick="Transaction"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Query"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-light"
+        android:onClick="Query"/>
+</LinearLayout>
